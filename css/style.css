@@ -50,6 +50,23 @@ nav ul {
     margin-bottom: auto;
 }
 
+.countdown {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.countdown-timer {
+    background-color: #35979a;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.countdown-label {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+
 .cta-button {
     display: inline-block;
     background: #ff6f61;
