@@ -2,9 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Kanop KC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanop KC - Tailoring with Perfection</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
+<header class="hero">
+    <nav>
+        <div class="logo">Kanop KC</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="hero-content">
+        <h1>Kanop KC</h1>
+        <p>Your trusted partner for crafting elegant and perfect garments.</p>
+        <a href="#contact" class="cta-button">Get In Touch</a>
+    </div>
+</header>
 
+<section id="about" class="about">
+    <h2>About Us</h2>
+    <p>At Kanop KC, we specialize in tailoring bespoke garments that blend tradition with modern style. With years of experience, our skilled artisans ensure every stitch reflects perfection.</p>
+</section>
+
+<section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-list">
+        <div class="service-item">
+            <h3>Custom Tailoring</h3>
+            <p>Made-to-measure clothing designed to fit you perfectly.</p>
+        </div>
+        <div class="service-item">
+            <h3>Alterations</h3>
+            <p>Perfect adjustments for your favorite garments.</p>
+        </div>
+        <div class="service-item">
+            <h3>Fabric Consultation</h3>
+            <p>Choose the perfect fabric for your custom creation.</p>
+        </div>
+    </div>
+</section>
+
+<section id="gallery" class="gallery">
+    <h2>Gallery</h2>
+    <div class="image-grid">
+        <img src="placeholder1.jpg" alt="Tailor at work" class="gallery-img">
+        <img src="placeholder2.jpg" alt="Sewing" class="gallery-img">
+        <img src="placeholder3.jpg" alt="Fitting a suit" class="gallery-img">
+        <img src="placeholder4.jpg" alt="Crafting garments" class="gallery-img">
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>We’d love to hear from you! Reach out to us for tailoring inquiries, appointments, or consultations.</p>
+    <form action="#" method="POST" class="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="cta-button">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2023 Kanop KC - All Rights Reserved</p>
+</footer>
 </body>
 </html>
